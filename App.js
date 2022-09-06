@@ -19,12 +19,4 @@ const styles = StyleSheet.create({
     justifyContent: 'space-around',
     alignItems:'center',
   },
-  square: {
-    margin: 5,
-    height: 90,
-    width: 90,
-    backgroundColor: '#731459',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
 });
