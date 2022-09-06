@@ -5,9 +5,9 @@ import Square from './components/square';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Square color={red}/>
-      <Square color={blue}/>
-      <Square color={green}/>
+      <Square color="red"/>
+      <Square color="blue"/>
+      <Square color="green"/>
     </View>
   );
 }
