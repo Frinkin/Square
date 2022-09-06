@@ -1,18 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet,Button,Alert, Text, View } from 'react-native';
+import Square from './components/square';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <View style={styles.square} backgroundColor='red'>
-      <Text>Square</Text>
-      </View>
-      <View style={styles.square} backgroundColor='blue'>
-      <Text>Square</Text>
-      </View>
-      <View style={styles.square} backgroundColor='green'>
-      <Text>Square</Text>
-      </View>
+      <Square color={red}/>
+      <Square color={blue}/>
+      <Square color={green}/>
     </View>
   );
 }
